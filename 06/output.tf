@@ -6,8 +6,12 @@ output "mybucket" {
 }
 
 
-output "mybucket02" {
+output "appServerId" {
     
-    value = module.bucket02.s3bucket
+    value = module.appServer.instanceId
   
+}
+
+output "appServerIP" {
+    value = module.appServer.privateIP
 }
