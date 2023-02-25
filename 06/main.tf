@@ -3,7 +3,7 @@ module "bucket" {
     s3_bucket_name = var.bucket_name 
 }
 
-module "bucket02" {
-    source = "./modules/s3"
-    s3_bucket_name = var.bucket_name02
+module "appServer" {
+    source = "./modules/ec2"
+    instace_type = "t3.micro"
 }
