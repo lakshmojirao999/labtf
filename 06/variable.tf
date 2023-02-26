@@ -11,6 +11,9 @@ variable "bucket_name" {
 variable "bucket_name02" {
   
 }
-# variable "no_of_buckets" {
+variable "vm_type" {
   
-# }
+}
+variable "subnet_id" {
+  
+}
