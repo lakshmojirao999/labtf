@@ -14,3 +14,6 @@ variable "bucket_name02" {
 variable "vm_type" {
   
 }
+variable "subnet_id" {
+  
+}
