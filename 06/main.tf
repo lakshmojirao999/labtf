@@ -5,5 +5,5 @@ module "bucket" {
 
 module "appServer" {
     source = "./modules/ec2"
-    instace_type = "t3.micro"
+    instace_type = var.vm_type
 }
